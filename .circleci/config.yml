@@ -27,6 +27,8 @@ jobs:
             - v1-dependencies-
 
       - run: npm install
+      # add vue-cli
+      - run: npm install -g @vue/cli
 
       - save_cache:
           paths:
